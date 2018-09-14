@@ -1,0 +1,16 @@
+{
+  "name": "fetch_cities",
+  "version": "1.0.0",
+  "description": "Fetching Chinese cities geo json data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Dune",
+  "license": "ISC",
+  "dependencies": {
+    "crawler": "^1.2.0",
+    "lodash": "^4.17.11",
+    "scrape-it": "^5.0.5"
+  }
+}
