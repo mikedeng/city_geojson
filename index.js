@@ -7,7 +7,7 @@ const selector = '.xl7013492';
 const CrawUrl = 'http://www.mca.gov.cn/article/sj/tjbz/a/2018/201803131439.html';
 
 function fetchASave(cityCode, cityName) {
-        let url = `http://echarts.baidu.com/echarts2/doc/example/geoJson/china-main-city/${cityCode}.json`;
+        let url = `https://geo.datav.aliyun.com/areas/bound/${cityCode}_full.json`;
         console.log(`url: `, url);
         scrapeIt(url).then(res => {
             if( res.response.statusCode === 200 ) {
