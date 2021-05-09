@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "crawler": "^1.2.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "scrape-it": "^5.0.5"
   }
 }
